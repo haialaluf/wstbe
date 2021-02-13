@@ -1,7 +1,4 @@
 {
-  "A": {
-    "Company Name": "Agilent Technologies, Inc. Common Stock"
-  },
   "AA": {
     "Company Name": "Alcoa Inc. Common Stock"
   },
@@ -860,9 +857,6 @@
   "AZZ": {
     "Company Name": "AZZ Incorporated Common Stock"
   },
-  "B": {
-    "Company Name": "Barnes Group, Inc. Common Stock"
-  },
   "BA": {
     "Company Name": "Boeing Company (The) Common Stock"
   },
@@ -1679,9 +1673,6 @@
   "CEN": {
     "Company Name": "Center Coast MLP & Infrastructure Fund Common Shares of Beneficial Interest"
   },
-  "CEO": {
-    "Company Name": "CNOOC Limited Common Stock"
-  },
   "CEQP": {
     "Company Name": "Crestwood Equity Partners LP"
   },
@@ -2368,9 +2359,6 @@
   },
   "DCUC": {
     "Company Name": "Dominion Resources, Inc. VA New 2014 Series A Corp Unit"
-  },
-  "DD": {
-    "Company Name": "E.I. du Pont de Nemours and Company Common Stock"
   },
   "DD$A": {
     "Company Name": "E.I. du Pont de Nemours and Company Preferred Stock"
@@ -3428,9 +3416,6 @@
   "FOF": {
     "Company Name": "Cohen & Steers Closed"
   },
-  "FOR": {
-    "Company Name": "Forestar Group Inc Common Stock"
-  },
   "FPF": {
     "Company Name": "First Trust Intermediate Duration Preferred & Income Fund Common Shares of Beneficial Interest"
   },
@@ -4420,9 +4405,6 @@
   },
   "HZO": {
     "Company Name": "MarineMax, Inc. Common Stock"
-  },
-  "I": {
-    "Company Name": "Intelsat S.A. Common Shares"
   },
   "I$A": {
     "Company Name": "Intelsat S.A. Series A mandatory convefrtible junior non"
@@ -11425,9 +11407,6 @@
   },
   "CFNL": {
     "Company Name": "Cardinal Financial Corporation"
-  },
-  "CFO": {
-    "Company Name": "Compass EMP US 500 Enhanced Volatility Weighted Index ETF"
   },
   "CFRX": {
     "Company Name": "ContraFect Corporation"
