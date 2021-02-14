@@ -12,7 +12,8 @@ const getTickers = (title, text, body) => {
     }
     return tickersMap[word];
   });
-  return tickers.filter((val, i) => tickers.lastIndexOf(val) === i);
+  return tickers.filter((val, i) => tickers.lastIndexOf(val) === i)
+    .map(word => word[0] === '$' ? word.substring(1, word.length) : word);
 }
 
 const parse = ({ selftext, id, title, body, score, created_utc, link_flair_text }, url) => ({
