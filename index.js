@@ -6,7 +6,12 @@ const q = ['https://www.reddit.com/r/wallstreetbets/new', 'https://www.reddit.co
 
 const getTickers = (title, text, body) => {
   const words = `${title}\n${text}\n${body}`.split(/[\s|\t|\n|\r]/);
-  const tickers = words.filter(words => tickersMap[words]);
+  const tickers = words.filter(word => {
+    if (word[0] === '$') {
+      return tickersMap[word.substring(1, word.length)] || tickersMap[word];
+    }
+    return tickersMap[word];
+  });
   return tickers.filter((val, i) => tickers.lastIndexOf(val) === i);
 }
 

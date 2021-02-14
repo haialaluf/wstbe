@@ -1,4 +1,7 @@
 {
+  "$A": {
+    "Company Name": "Agilent Technologies, Inc. Common Stock"
+  },
   "AA": {
     "Company Name": "Alcoa Inc. Common Stock"
   },
@@ -386,7 +389,7 @@
   "ALK": {
     "Company Name": "Alaska Air Group, Inc. Common Stock"
   },
-  "ALL": {
+  "$ALL": {
     "Company Name": "Allstate Corporation (The) Common Stock"
   },
   "ALL$A": {
@@ -446,7 +449,7 @@
   "ALX": {
     "Company Name": "Alexander's, Inc. Common Stock"
   },
-  "AM": {
+  "$AM": {
     "Company Name": "Antero Midstream Partners LP Common Units representing limited partner interests"
   },
   "AMBR": {
@@ -856,6 +859,9 @@
   },
   "AZZ": {
     "Company Name": "AZZ Incorporated Common Stock"
+  },
+  "$B": {
+    "Company Name": "Barnes Group, Inc. Common Stock"
   },
   "BA": {
     "Company Name": "Boeing Company (The) Common Stock"
@@ -1460,7 +1466,7 @@
   "BZT": {
     "Company Name": "Beazer Homes USA, Inc. Tangible Equity Unit"
   },
-  "C": {
+  "$C": {
     "Company Name": "Citigroup, Inc. Common Stock"
   },
   "C$C": {
@@ -1672,6 +1678,9 @@
   },
   "CEN": {
     "Company Name": "Center Coast MLP & Infrastructure Fund Common Shares of Beneficial Interest"
+  },
+  "$CEO": {
+    "Company Name": "CNOOC Limited Common Stock"
   },
   "CEQP": {
     "Company Name": "Crestwood Equity Partners LP"
@@ -2306,7 +2315,7 @@
   "CZZ": {
     "Company Name": "Cosan Limited Class A Common Stock"
   },
-  "D": {
+  "$D": {
     "Company Name": "Dominion Resources, Inc. Common Stock"
   },
   "DAC": {
@@ -2359,6 +2368,9 @@
   },
   "DCUC": {
     "Company Name": "Dominion Resources, Inc. VA New 2014 Series A Corp Unit"
+  },
+  "DD": {
+    "Company Name": "E.I. du Pont de Nemours and Company Common Stock"
   },
   "DD$A": {
     "Company Name": "E.I. du Pont de Nemours and Company Preferred Stock"
@@ -2720,7 +2732,7 @@
   "EARN": {
     "Company Name": "Ellington Residential Mortgage REIT Common Shares of Beneficial Interest"
   },
-  "EAT": {
+  "$EAT": {
     "Company Name": "Brinker International, Inc. Common Stock"
   },
   "EBF": {
@@ -3415,6 +3427,9 @@
   },
   "FOF": {
     "Company Name": "Cohen & Steers Closed"
+  },
+  "$FOR": {
+    "Company Name": "Forestar Group Inc Common Stock"
   },
   "FPF": {
     "Company Name": "First Trust Intermediate Duration Preferred & Income Fund Common Shares of Beneficial Interest"
@@ -4406,6 +4421,9 @@
   "HZO": {
     "Company Name": "MarineMax, Inc. Common Stock"
   },
+  "I": {
+    "Company Name": "Intelsat S.A. Common Shares"
+  },
   "I$A": {
     "Company Name": "Intelsat S.A. Series A mandatory convefrtible junior non"
   },
@@ -4574,7 +4592,7 @@
   "IOC": {
     "Company Name": "InterOil Corporation"
   },
-  "IP": {
+  "$IP": {
     "Company Name": "International Paper Company Common Stock"
   },
   "IPG": {
@@ -4652,7 +4670,7 @@
   "ISP": {
     "Company Name": "ING Groep NV 6.20% Perpetual Debt Securities (Netherlands)"
   },
-  "IT": {
+  "$IT": {
     "Company Name": "Gartner, Inc. Common Stock"
   },
   "ITC": {
@@ -4883,7 +4901,7 @@
   "JWN": {
     "Company Name": "Nordstrom, Inc. Common Stock"
   },
-  "K": {
+  "$K": {
     "Company Name": "Kellogg Company Common Stock"
   },
   "KAI": {
@@ -5153,7 +5171,7 @@
   "KYO": {
     "Company Name": "Kyocera Corporation Common Stock"
   },
-  "L": {
+  "$L": {
     "Company Name": "Loews Corporation Common Stock"
   },
   "LAD": {
@@ -7133,7 +7151,7 @@
   "PLT": {
     "Company Name": "Plantronics, Inc. Common Stock"
   },
-  "PM": {
+  "$PM": {
     "Company Name": "Philip Morris International Inc Common Stock"
   },
   "PMC": {
@@ -7853,7 +7871,7 @@
   "RZA": {
     "Company Name": "Reinsurance Group of America, Incorporated 6.20% Fixed"
   },
-  "S": {
+  "$S": {
     "Company Name": "Sprint Corporation Common Stock"
   },
   "SA": {
@@ -7997,10 +8015,10 @@
   "SE": {
     "Company Name": "Spectra Energy Corp Common Stock"
   },
-  "SEAS": {
+  "$SEAS": {
     "Company Name": "SeaWorld Entertainment, Inc. Common Stock"
   },
-  "SEE": {
+  "$SEE": {
     "Company Name": "Sealed Air Corporation Common Stock"
   },
   "SEM": {
@@ -9011,7 +9029,7 @@
   "TUP": {
     "Company Name": "Tupperware Brands Corporation Common Stock"
   },
-  "TV": {
+  "$TV": {
     "Company Name": "Grupo Televisa S.A. Common Stock"
   },
   "TVC": {
@@ -9440,7 +9458,7 @@
   "VZA": {
     "Company Name": "Verizon Communications Inc. 5.90% Notes due 2054"
   },
-  "W": {
+  "$W": {
     "Company Name": "Wayfair Inc. Class A Common Stock"
   },
   "WAB": {
@@ -9737,7 +9755,7 @@
   "WYN": {
     "Company Name": "Wyndham Worldwide Corp Common  Stock"
   },
-  "X": {
+  "$X": {
     "Company Name": "United States Steel Corporation Common Stock"
   },
   "XCO": {
@@ -10385,7 +10403,7 @@
   "ANTH": {
     "Company Name": "Anthera Pharmaceuticals, Inc."
   },
-  "ANY": {
+  "$ANY": {
     "Company Name": "Sphere 3D Corp"
   },
   "AOSL": {
@@ -11150,7 +11168,7 @@
   "CALI": {
     "Company Name": "China Auto Logistics Inc."
   },
-  "CALL": {
+  "$CALL": {
     "Company Name": "magicJack VocalTec Ltd"
   },
   "CALM": {
@@ -11407,6 +11425,9 @@
   },
   "CFNL": {
     "Company Name": "Cardinal Financial Corporation"
+  },
+  "CFO": {
+    "Company Name": "Compass EMP US 500 Enhanced Volatility Weighted Index ETF"
   },
   "CFRX": {
     "Company Name": "ContraFect Corporation"
