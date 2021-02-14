@@ -1,19 +1,6 @@
-const request = require('request');
+const { fetchData, sleepOneMinuit } = require('./helpers');
 
 exports.crawler = (dbPush, q, parse) => {
-  const fetchData = (url) => new Promise(((resolve, reject) => {
-    request({
-      json: true,
-      url: `${url}.json`,
-  }, (error, _, body) => {
-      if (error) {
-        return reject({ error, body });
-      }
-      !Array.isArray(body) ? 
-        resolve({body: [body], url}) :
-        resolve({body, url});
-    });
-  }));
 
   const indexData = ({body, url}) => {
     body.forEach(({ data }) => {
@@ -56,7 +43,3 @@ exports.crawler = (dbPush, q, parse) => {
     }
   }
 }
-
-const sleepOneMinuit = () => {
-  return new Promise(resolve => setTimeout(resolve, 60000));
-} 
