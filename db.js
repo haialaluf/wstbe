@@ -1,6 +1,6 @@
 const elasticsearch = require('elasticsearch');
 
-const db = (host = 'localhost:9200', index = 'posts-v1') => {
+const db = (host = 'localhost:9200', index = 'posts-v2') => {
   const client = new elasticsearch.Client({
     host,
     apiVersion: '_default',
