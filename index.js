@@ -4,7 +4,6 @@ const tickersMap = require('./tickersMap.json');
 
 const q = ['https://www.reddit.com/r/wallstreetbets/new', 'https://www.reddit.com/r/wallstreetbets/hot'];
 
-
 const getTickers = (title, text, body) => {
   const words = `${title}\n${text}\n${body}`.split(/[\s|\t|\n|\r]/);
   const tickers = words.filter(words => tickersMap[words]);
@@ -26,11 +25,16 @@ const parse = ({ selftext, id, title, body, score, created_utc, link_flair_text 
 const main = () => {
   const { push } = db();
   const { run } = crawler(push, q, parse);
+  let acc = 1;
   try {
     run(({ counter, urls }) => {
       const newQ = q.filter((val, i) => !urls.includes(val) && q.lastIndexOf(val) === i);
       if (q.length !== newQ.length) {
         q.splice(0, q.length, ...newQ);
+      }
+      if (counter > acc * 1000) {
+        acc ++;
+        q.push('https://www.reddit.com/r/wallstreetbets/new');
       }
     });
   } catch (err) {
