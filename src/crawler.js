@@ -6,10 +6,15 @@ exports.crawler = (dbPush, q, parse) => {
     body.forEach(({ data }) => {
       if (data.children.length > 24) {
         const lastChildId = data.children[data.children.length - 1].data.id;
-        if (url.includes('.json')) {
-          q.push(`${url.substring(0, url.lastIndexOf('=') + 1)}${lastChildId}`);
-        } else {
-          q.push(`${url}.json?after=${lastChildId}`);
+        const nextPagesRequests = q.filter(url => url.includes('json?after'));
+        const hasNextRequestOnQ = nextPagesRequests.find(val => data.children.find(
+          ({data}) => val.includes(data.id)));
+        if (!hasNextRequestOnQ){
+          if (url.includes('.json')) {
+            q.push(`${url.substring(0, url.lastIndexOf('=') + 1)}${lastChildId}`);
+          } else {
+            q.push(`${url}.json?after=${lastChildId}`);
+          }  
         }
       }
       data.children.forEach(({ data }) => {

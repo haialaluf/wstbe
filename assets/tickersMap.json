@@ -305,7 +305,7 @@
   "AHT$E": {
     "Company Name": "Ashford Hospitality Trust Inc 9.00% Series E Cumulative Preferred Stock"
   },
-  "AI": {
+  "$AI": {
     "Company Name": "Arlington Asset Investment Corp Class A (new)"
   },
   "AIB": {
@@ -2555,10 +2555,10 @@
   "DNY": {
     "Company Name": "The Denali Fund Inc"
   },
-  "DO": {
+  "$DO": {
     "Company Name": "Diamond Offshore Drilling, Inc. Common Stock"
   },
-  "DOC": {
+  "$DOC": {
     "Company Name": "Physicians Realty Trust Common Shares of Beneficial Interest"
   },
   "DOM": {
@@ -6653,7 +6653,7 @@
   "NYT": {
     "Company Name": "New York Times Company (The) Common Stock"
   },
-  "O": {
+  "$O": {
     "Company Name": "Realty Income Corporation Common Stock"
   },
   "O$F": {
@@ -13556,7 +13556,7 @@
   "HART": {
     "Company Name": "Harvard Apparatus Regenerative Technology, Inc."
   },
-  "HAS": {
+  "$HAS": {
     "Company Name": "Hasbro, Inc."
   },
   "HAWK": {
