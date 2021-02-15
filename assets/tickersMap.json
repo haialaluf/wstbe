@@ -701,7 +701,7 @@
   "ASX": {
     "Company Name": "Advanced Semiconductor Engineering, Inc. Common Stock"
   },
-  "AT": {
+  "$AT": {
     "Company Name": "Atlantic Power Corporation Ordinary Shares (Canada)"
   },
   "ATE": {
@@ -1142,13 +1142,13 @@
   "BIF": {
     "Company Name": "Boulder Growth & Income Fund, Inc."
   },
-  "BIG": {
+  "$BIG": {
     "Company Name": "Big Lots, Inc. Common Stock"
   },
   "BIN": {
     "Company Name": "Progressive Waste Solutions Ltd. Common Shares"
   },
-  "BIO": {
+  "$BIO": {
     "Company Name": "Bio"
   },
   "BIO.B": {
@@ -3113,7 +3113,7 @@
   "ETY": {
     "Company Name": "Eaton Vance Tax"
   },
-  "EV": {
+  "$EV": {
     "Company Name": "Eaton Vance Corporation Common Stock"
   },
   "EVC": {
@@ -4454,7 +4454,7 @@
   "ICD": {
     "Company Name": "Independence Contract Drilling, Inc. Common Stock"
   },
-  "ICE": {
+  "$ICE": {
     "Company Name": "Intercontinental Exchange Inc. Common Stock"
   },
   "ICL": {
@@ -6050,7 +6050,7 @@
   "MXL": {
     "Company Name": "MaxLinear, Inc Class A Common Stock"
   },
-  "MY": {
+  "$MY": {
     "Company Name": "China Ming Yang Wind Power Group Limited American Depositary Shares, each representing one ordinary share $0.001 par value"
   },
   "MYC": {
@@ -8867,7 +8867,7 @@
   "TOL": {
     "Company Name": "Toll Brothers Inc. Common Stock"
   },
-  "TOO": {
+  "$TOO": {
     "Company Name": "Teekay Offshore Partners L.P. Common Units representing Limited Partner Interests"
   },
   "TOO$A": {
@@ -9809,7 +9809,7 @@
   "XYL": {
     "Company Name": "Xylem Inc. Common Stock New"
   },
-  "Y": {
+  "$Y": {
     "Company Name": "Alleghany Corporation Common Stock"
   },
   "YDKN": {
@@ -16079,7 +16079,7 @@
   "PLAB": {
     "Company Name": "Photronics, Inc."
   },
-  "PLAY": {
+  "$PLAY": {
     "Company Name": "Dave & Buster's Entertainment, Inc."
   },
   "PLBC": {
