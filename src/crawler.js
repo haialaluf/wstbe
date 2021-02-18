@@ -4,7 +4,7 @@ exports.crawler = (dbPush, q, parse) => {
 
   const indexData = ({body, url}) => {
     body.forEach(({ data }) => {
-      if (data.children.length > 24) {
+      if (data.children && data.children.length > 24) {
         const lastChildId = data.children[data.children.length - 1].data.id;
         const nextPagesRequests = q.filter(url => url.includes('json?after'));
         const hasNextRequestOnQ = nextPagesRequests.find(val => data.children.find(
