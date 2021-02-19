@@ -4,6 +4,10 @@ const { parse } = require('./parser');
 
 const q = ['https://www.reddit.com/r/wallstreetbets/new', 'https://www.reddit.com/r/wallstreetbets/hot'];
 
+setInterval(() => {
+  q.splice(0, q.length, 'https://www.reddit.com/r/wallstreetbets/new', 'https://www.reddit.com/r/wallstreetbets/hot');
+}, 100000);
+
 const main = (host = 'localhost:9200', index = 'posts-v2') => {
   const { push } = db(host, index);
   const { run } = crawler(push, q, parse);
